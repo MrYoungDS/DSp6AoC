@@ -7,6 +7,20 @@ The project is to be completed two ways, once using recursion, and once
 without using recursion. If you have a method that calls itself, you are
 using recursion.
 
+You may find it helpful to use the `In` class from Coursera, in particular
+the `hasNextLine` and `readNextLine` methods. The Coursera library is
+included in this project. I also used the `Long.parseLong` and the
+`String.split` methods from the Java library. Feel free to use a different
+approach, and modify whatever you like.
+
+After your code is working for the small example in the documentation below
+(and in the `day07ex.txt` file), switch over to the larger input file and see
+if you can solve the challenge. The numbers get **big**, which is why these
+methods return a `long` instead of an `int`.
+
+On Advent of Code, after you finish part 1, there is a part 2 which uses
+the same input file. You do not need to complete part 2 for this assignment.
+
 ## Backstory
 Well, these things have a lot of backstory, and you don't really need all
 that to complete the problem. Here is the description from the website.
@@ -63,7 +77,7 @@ left-to-right)!<br>
 The engineers just need the total calibration result, which is the sum of
 the test values from just the equations that could possibly be true. In the
 above example, the sum of the test values for the three equations listed
-above is 3749.
+above is **3749**.
 
 Determine which equations could possibly be true. What is their total
 calibration result?
